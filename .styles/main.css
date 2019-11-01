@@ -1,2 +1,59 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css?family=Fira+Code:400,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap&subset=cyrillic,cyrillic-ext');
+
+body{
+  font-family: 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E5E5E5;
+  box-sizing: border-box;
+}
+
+
+main {
+  width: 600px;
+  height: 100vh;
+  margin: 0 auto;
+  border-left: 1px solid rgba(0,0,0,0.25);
+  border-right: 1px solid rgba(0,0,0,0.25);
+  min-height: 100vh;
+  padding-bottom: 20vh;
+}
+
+.main__header{
+font-size: 18px;
+font-weight: bold;
+padding: 16px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+main div ul li{
+  padding: 16px 16px;
+  display: flex;
+
+}
+
+main div ul li img{
+  width: 48px;
+}
+
+.main_message_nickname{
+font-weight: bold;
+padding-left: 16px;
+}
+
+.main_message_text{
+
+}
+
+.main_message_nickname-2{
+
+}
+
+
+.main_message_date{
+
+}
