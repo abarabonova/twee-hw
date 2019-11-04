@@ -46,14 +46,15 @@ padding-left: 16px;
 }
 
 .main_message_text{
-
+align-self: flex-end;
 }
 
 .main_message_nickname-2{
-
+color: rgba(0,0,0,.5);
 }
 
 
 .main_message_date{
+color: rgba(0,0,0,.5);
 
 }
