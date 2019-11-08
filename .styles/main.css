@@ -8,7 +8,7 @@ body{
   box-sizing: border-box;
 }
 
-+nav{
+nav{
   padding: 24px 32px 0px 0px;
   position: fixed;
   left: calc((100vw - 600px) / 2);
@@ -60,13 +60,15 @@ body{
 }
 
 .nav__btn{
+  padding: 18px 0px;
+  text-align: center;
+  align-items: center;
   width: 216px;
   display: block;
   font-size: 16px;
   font-weight: bold;
   color: #fff;
   background: blue;
-  height: 53px;
   text-decoration: none;
   box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.25);
 }
