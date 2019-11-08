@@ -97,11 +97,20 @@ align-items: center;
 border-bottom: 1px solid rgba(0,0,0,0.25);
 }
 
+main div ul li h3+p{
+  flex-direction: column;
+  justify-content: flex-end;
+}
 
+main div ul li h5{
+  align-self: flex-end;
+}
 
 main div ul li{
   padding: 16px 16px;
+  justify-content: space-between;
   display: flex;
+  /* justify-content: space-between; */
 
 }
 
@@ -110,21 +119,35 @@ main div ul li img{
 }
 
 .main_message_nickname{
-font-weight: bold;
-padding-left: 16px;
+  display: flex;
+  font-weight: bold;
+  padding-left: 16px;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+
 }
 
 .main_message_text{
-align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+/* align-content: flex-start;
+justify-content: flex-start; */
 }
 
 .main_message_nickname-2{
-color: rgba(0,0,0,.5);
+  display: flex;
+  color: rgba(0,0,0,.5);
+  justify-content: center;
 }
 
 
 .main_message_date{
-color: rgba(0,0,0,.5);
+  display: flex;
+  color: rgba(0,0,0,.5);
+  justify-content: flex-end;
+  align-self: flex-start;
 }
 
 section{
